@@ -3,7 +3,7 @@ import {  Link } from "react-router-dom";
 function Nav(){
     const navstyle={
     width: "100%",
-    background:"gray",
+    background:"skyblue",
     margin:"2px",
     padding:"7px",
     

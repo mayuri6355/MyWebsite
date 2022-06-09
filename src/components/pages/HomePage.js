@@ -4,12 +4,13 @@ import Nav from "./Navbar"
 import Product from './Product'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ViewProduct from './ViewProduct';
+import Table from './Table';
 
 export default function HomePage() {
     return (
         <div>
-            
-            <Router>
+       
+       <Router>
       <Nav />
       <Switch>
         <Route path='/product' exact component={Product} />

@@ -38,7 +38,7 @@ function Product(){
      <div className="row">
          <div className="col-sm-8">
          <FormInput handleChange={handleChange} formInputData={formInputData} handleSubmit={handleSubmit}/>
-         <Table tableData={tableData}/>
+         {/* <Table tableData={tableData}/> */}
          </div>
          <div className="col-sm-4">
 
